@@ -76,7 +76,7 @@ body {
       justify-content: center;
     }
     .img-balatro img {
-      max-width: 180px; /* Limita para que no sea demasiado ancha */
+      max-width: 300px; /* Limita para que no sea demasiado ancha */
       width: 100%;
       height: auto;
       border-radius: 8px;
