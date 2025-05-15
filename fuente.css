@@ -70,24 +70,27 @@ body {
       max-width: 600px;
     }
     .texto-balatro2 {
-      flex: 1 100px;
+      flex: 3;
       font-size: 1.2em;
       line-height: 1.7;
       min-width: 0;
       max-width: 900px;
     }
-    .img-balatro {
+    .balatro-portada {
       flex: 1;
       display: flex;
       align-items: flex-start;
       justify-content: center;
     }
-    .img-balatro img {
-      max-width: 300px; /* Limita para que no sea demasiado ancha */
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
+    .balatro-portada img {
+        float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    max-width: 300px;
+    width: 40vw;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     }
 
     /* Responsivo para pantallas pequeñas */
